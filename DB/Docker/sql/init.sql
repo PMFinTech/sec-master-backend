@@ -1,0 +1,6 @@
+DROP DATABASE SecMaster
+CREATE DATABASE SecMaster;
+GO
+
+CREATE SCHEMA SecMaster;
+go

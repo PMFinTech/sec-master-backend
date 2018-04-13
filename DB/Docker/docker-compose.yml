@@ -1,0 +1,21 @@
+version: '2.1'
+services:
+
+  mssqldata:
+    image: microsoft/mssql-server-linux:latest
+    entrypoint: /bin/bash
+
+  mssql:
+    image: microsoft/mssql-server-linux:latest
+    ports:
+      - 1433:1433
+    volumes:
+      - /var/opt/mssql      
+      - ./sql:/usr/src/app 
+    working_dir: /usr/src/app 
+    command: sh -c '/bin/bash; pwd; ls; chmod +x ./startup2.sh; ls -al; ./startup2.sh & /opt/mssql/bin/sqlservr;'
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: PMFinTech@ 
+    volumes_from:
+      - mssqldata
