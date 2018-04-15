@@ -13,7 +13,7 @@ services:
       - /var/opt/mssql      
       - ./sql:/usr/src/app 
     working_dir: /usr/src/app 
-    command: sh -c '/bin/bash; pwd; ls; sed -i.bak ''s/\r$$//'' ./startup2.sh; chmod +x ./startup2.sh; ls -al; ./startup2.sh & /opt/mssql/bin/sqlservr;'
+    command: sh -c '/bin/bash; pwd; ls; chmod +x ./startup2.sh; ls -al; ./startup2.sh & /opt/mssql/bin/sqlservr;'
     environment:
       ACCEPT_EULA: Y
       SA_PASSWORD: PMFinTech@ 
