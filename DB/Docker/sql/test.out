@@ -1,0 +1,20 @@
+#@ Row 1, Column 3: Invalid character value for cast specification @#
+"PIH"	"1347 Property Insurance Holdings	 Inc."	"7.1"	"$42.49M"	"2014"	"Finance"	"Property-Casualty Insurers","https://www.nasdaq.com/symbol/pih",
+#@ Row 2, Column 3: Invalid character value for cast specification @#
+"PIHPP"	"1347 Property Insurance Holdings	 Inc."	"25.726"	"n/a"	"n/a"	"Finance"	"Property-Casualty Insurers","https://www.nasdaq.com/symbol/pihpp",
+#@ Row 3, Column 3: Invalid character value for cast specification @#
+"TURN"	"180 Degree Capital Corp."	"2.17"	"$67.53M"	"n/a"	"Finance"	"Finance/Investors Services"	"https://www.nasdaq.com/symbol/turn",
+#@ Row 4, Column 3: Invalid character value for cast specification @#
+"FLWS"	"1-800 FLOWERS.COM	 Inc."	"12.85"	"$830.16M"	"1999"	"Consumer Services"	"Other Specialty Stores","https://www.nasdaq.com/symbol/flws",
+#@ Row 5, Column 3: Invalid character value for cast specification @#
+"FCCY"	"1st Constitution Bancorp (NJ)"	"21.7"	"$181.49M"	"n/a"	"Finance"	"Savings Institutions"	"https://www.nasdaq.com/symbol/fccy",
+#@ Row 6, Column 3: Invalid character value for cast specification @#
+"SRCE"	"1st Source Corporation"	"54.95"	"$1.43B"	"n/a"	"Finance"	"Major Banks"	"https://www.nasdaq.com/symbol/srce",
+#@ Row 7, Column 3: Invalid character value for cast specification @#
+"VNET"	"21Vianet Group	 Inc."	"9.82"	"$1.1B"	"2011"	"Technology"	"Computer Software: Programming, Data Processing","https://www.nasdaq.com/symbol/vnet",
+#@ Row 8, Column 3: Invalid character value for cast specification @#
+"TWOU"	"2U	 Inc."	"90.02"	"$5.11B"	"2014"	"Technology"	"Computer Software: Prepackaged Software","https://www.nasdaq.com/symbol/twou",
+#@ Row 9, Column 3: Invalid character value for cast specification @#
+"JOBS"	"51job	 Inc."	"91.95"	"$5.69B"	"2004"	"Technology"	"Diversified Commercial Services","https://www.nasdaq.com/symbol/jobs",
+#@ Row 10, Column 3: Invalid character value for cast specification @#
+"EGHT"	"8x8 Inc"	"20.55"	"$1.91B"	"n/a"	"Public Utilities"	"Telecommunications Equipment"	"https://www.nasdaq.com/symbol/eght",

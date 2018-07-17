@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  secmasterapiidentityserver:
+    image: secmasterapiidentityserver
+    ports:
+      - 32778:80
+    build:
+      context: ./SecMasterApiIdentityServer
+      dockerfile: Dockerfile
+
+  identityserver:
+    image: identityserver
+    ports:
+      - 32777:80
+    build:
+      context: ./IdentityServer
+      dockerfile: Dockerfile
+
